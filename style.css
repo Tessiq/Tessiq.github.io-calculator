@@ -1,0 +1,98 @@
+.keys{
+    display: grid;
+    margin-left: 30%;
+    margin-right: 30%;
+    grid:
+    'dis dis dis dis'
+    'add sub mult div'
+    'g h i equal'
+    'd e f equal'
+    'a b c equal'
+    'decimal z clear equal';
+    
+}
+.keys button{
+    padding: 10%;
+    font-size: 1.5em;
+}
+.calculatorScreen{
+    border-style: groove;
+    font-size: 2.5em;
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+}
+.formstyle{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    width: 38%;
+}
+#z{
+    grid-area: z;
+    background-color: white;
+}
+#a{
+    grid-area: a;
+    background-color: white;
+}
+#b{
+    grid-area: b;
+    background-color: white;
+}
+#c{
+    grid-area: c;
+    background-color: white;
+}
+#d{
+    grid-area: d;
+    background-color: white;
+}
+#e{
+    grid-area: e;
+    background-color: white;
+}
+#f{
+    grid-area: f;
+    background-color: white;
+}
+#g{
+    grid-area: g;
+    background-color: white;
+}
+#h{
+    grid-area: h;
+    background-color: white;
+}
+#i{
+    grid-area: i;
+    background-color: white;
+}
+#add{
+    grid-area: add;
+    background-color: lightgray;
+}
+#subtract{
+    grid-area: sub;
+    background-color: lightgray;
+}
+#multiply{
+    grid-area: mult;
+    background-color: lightgray;
+}
+#divide{
+    grid-area: div;
+    background-color: lightgray;
+}
+#clear{
+    grid-area: clear;
+    background-color: white;
+}
+#decimal{
+    grid-area: decimal;
+    background-color: white;
+}
+.equal{
+    grid-area: equal;
+    background-color: rgb(255, 123, 0);
+}

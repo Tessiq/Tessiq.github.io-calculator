@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="formstyle">
+    <form name="form1">
+        <input class="calculatorScreen"  name="calculatorScreen">
+    </form>
+    </div>
+
+    <div class="keys">
+        <button value="+" onclick="insert('+')"id="add">+</button>
+        <button value="-" onclick="insert('-')"id="subtract">-</button>
+        <button value="*" onclick="insert('*')"id="multiply">&times;</button>
+        <button value="/" onclick="insert('/')"id="divide">÷</button>
+        <button value="7" onclick="insert('7')"id="g">7</button>
+        <button value="8" onclick="insert('8')"id="h">8</button>
+        <button value="9" onclick="insert('9')"id="i">9</button>
+        <button value="4" onclick="insert('4')"id="d">4</button>
+        <button value="5" onclick="insert('5')"id="e">5</button>
+        <button value="6" onclick="insert('6')"id="f">6</button>
+        <button value="1" onclick="insert('1')"id="a">1</button>
+        <button value="2" onclick="insert('2')"id="b">2</button>
+        <button value="3" onclick="insert('3')"id="c">3</button>
+        <button value="0" onclick="insert('0')"id="z">0</button>
+        <button value="." onclick="insert('.')"id="decimal">.</button>
+        <button value="AC"onclick="form1.calculatorScreen.value=' '" id="clear">AC</button>
+        <button value="=" onclick="equal('=')"class="equal">=</button>
+    </div>
+    
+</body>
+</html>
